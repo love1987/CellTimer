@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE17DBEB21C9DEBA006937B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DBEA21C9DEBA006937B8 /* AppDelegate.m */; };
+		EE17DBEE21C9DEBA006937B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DBED21C9DEBA006937B8 /* ViewController.m */; };
+		EE17DBF121C9DEBA006937B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17DBEF21C9DEBA006937B8 /* Main.storyboard */; };
+		EE17DBF321C9DEBB006937B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE17DBF221C9DEBB006937B8 /* Assets.xcassets */; };
+		EE17DBF621C9DEBB006937B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17DBF421C9DEBB006937B8 /* LaunchScreen.storyboard */; };
+		EE17DBF921C9DEBB006937B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DBF821C9DEBB006937B8 /* main.m */; };
+		EE17DC0321C9DEBB006937B8 /* CellTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC0221C9DEBB006937B8 /* CellTimerTests.m */; };
+		EE17DC0E21C9DEBB006937B8 /* CellTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC0D21C9DEBB006937B8 /* CellTimerUITests.m */; };
+		EE17DC3621C9DEDC006937B8 /* VC_And_Cell_GCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC1B21C9DEDA006937B8 /* VC_And_Cell_GCDTimerViewController.m */; };
+		EE17DC3721C9DEDC006937B8 /* VC_And_Cell_NSTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC1C21C9DEDA006937B8 /* VC_And_Cell_NSTimerViewController.xib */; };
+		EE17DC3821C9DEDC006937B8 /* VC_And_Cell_NSTimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC1D21C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.xib */; };
+		EE17DC3921C9DEDC006937B8 /* VC_NSTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC1F21C9DEDA006937B8 /* VC_NSTimerViewController.xib */; };
+		EE17DC3A21C9DEDC006937B8 /* VC_And_Cell_NSTimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2021C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.m */; };
+		EE17DC3B21C9DEDC006937B8 /* VC_GCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2221C9DEDA006937B8 /* VC_GCDTimerViewController.m */; };
+		EE17DC3C21C9DEDC006937B8 /* VC_NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2321C9DEDA006937B8 /* VC_NSTimerViewController.m */; };
+		EE17DC3D21C9DEDC006937B8 /* VC_TimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2421C9DEDA006937B8 /* VC_TimerTableViewCell.m */; };
+		EE17DC3E21C9DEDC006937B8 /* VC_And_Cell_GCDTimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2921C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.m */; };
+		EE17DC3F21C9DEDC006937B8 /* VC_GCDTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC2A21C9DEDB006937B8 /* VC_GCDTimerViewController.xib */; };
+		EE17DC4021C9DEDC006937B8 /* VC_And_Cell_GCDTimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC2B21C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.xib */; };
+		EE17DC4121C9DEDC006937B8 /* VC_And_Cell_GCDTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC2C21C9DEDB006937B8 /* VC_And_Cell_GCDTimerViewController.xib */; };
+		EE17DC4221C9DEDC006937B8 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2E21C9DEDB006937B8 /* NSString+Date.m */; };
+		EE17DC4321C9DEDC006937B8 /* VC_And_Cell_NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC2F21C9DEDB006937B8 /* VC_And_Cell_NSTimerViewController.m */; };
+		EE17DC4421C9DEDC006937B8 /* VC_TimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17DC3021C9DEDB006937B8 /* VC_TimerTableViewCell.xib */; };
+		EE17DC4521C9DEDC006937B8 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC3121C9DEDB006937B8 /* GCDTimer.m */; };
+		EE17DC4621C9DEDC006937B8 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EE17DC3321C9DEDC006937B8 /* NSTimer+Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE17DBFF21C9DEBB006937B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE17DBDE21C9DEBA006937B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE17DBE521C9DEBA006937B8;
+			remoteInfo = CellTimer;
+		};
+		EE17DC0A21C9DEBB006937B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE17DBDE21C9DEBA006937B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE17DBE521C9DEBA006937B8;
+			remoteInfo = CellTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE17DBE621C9DEBA006937B8 /* CellTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17DBE921C9DEBA006937B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE17DBEA21C9DEBA006937B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE17DBEC21C9DEBA006937B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE17DBED21C9DEBA006937B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE17DBF021C9DEBA006937B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE17DBF221C9DEBB006937B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE17DBF521C9DEBB006937B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE17DBF721C9DEBB006937B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE17DBF821C9DEBB006937B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE17DBFE21C9DEBB006937B8 /* CellTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17DC0221C9DEBB006937B8 /* CellTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTimerTests.m; sourceTree = "<group>"; };
+		EE17DC0421C9DEBB006937B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE17DC0921C9DEBB006937B8 /* CellTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17DC0D21C9DEBB006937B8 /* CellTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTimerUITests.m; sourceTree = "<group>"; };
+		EE17DC0F21C9DEBB006937B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE17DC1B21C9DEDA006937B8 /* VC_And_Cell_GCDTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_And_Cell_GCDTimerViewController.m; sourceTree = "<group>"; };
+		EE17DC1C21C9DEDA006937B8 /* VC_And_Cell_NSTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_And_Cell_NSTimerViewController.xib; sourceTree = "<group>"; };
+		EE17DC1D21C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_And_Cell_NSTimerTableViewCell.xib; sourceTree = "<group>"; };
+		EE17DC1E21C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_And_Cell_NSTimerTableViewCell.h; sourceTree = "<group>"; };
+		EE17DC1F21C9DEDA006937B8 /* VC_NSTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_NSTimerViewController.xib; sourceTree = "<group>"; };
+		EE17DC2021C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_And_Cell_NSTimerTableViewCell.m; sourceTree = "<group>"; };
+		EE17DC2121C9DEDA006937B8 /* VC_And_Cell_GCDTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_And_Cell_GCDTimerViewController.h; sourceTree = "<group>"; };
+		EE17DC2221C9DEDA006937B8 /* VC_GCDTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_GCDTimerViewController.m; sourceTree = "<group>"; };
+		EE17DC2321C9DEDA006937B8 /* VC_NSTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_NSTimerViewController.m; sourceTree = "<group>"; };
+		EE17DC2421C9DEDA006937B8 /* VC_TimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_TimerTableViewCell.m; sourceTree = "<group>"; };
+		EE17DC2521C9DEDA006937B8 /* VC_And_Cell_NSTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_And_Cell_NSTimerViewController.h; sourceTree = "<group>"; };
+		EE17DC2621C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_And_Cell_GCDTimerTableViewCell.h; sourceTree = "<group>"; };
+		EE17DC2721C9DEDB006937B8 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		EE17DC2821C9DEDB006937B8 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		EE17DC2921C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_And_Cell_GCDTimerTableViewCell.m; sourceTree = "<group>"; };
+		EE17DC2A21C9DEDB006937B8 /* VC_GCDTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_GCDTimerViewController.xib; sourceTree = "<group>"; };
+		EE17DC2B21C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_And_Cell_GCDTimerTableViewCell.xib; sourceTree = "<group>"; };
+		EE17DC2C21C9DEDB006937B8 /* VC_And_Cell_GCDTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_And_Cell_GCDTimerViewController.xib; sourceTree = "<group>"; };
+		EE17DC2D21C9DEDB006937B8 /* VC_TimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_TimerTableViewCell.h; sourceTree = "<group>"; };
+		EE17DC2E21C9DEDB006937B8 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		EE17DC2F21C9DEDB006937B8 /* VC_And_Cell_NSTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_And_Cell_NSTimerViewController.m; sourceTree = "<group>"; };
+		EE17DC3021C9DEDB006937B8 /* VC_TimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_TimerTableViewCell.xib; sourceTree = "<group>"; };
+		EE17DC3121C9DEDB006937B8 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		EE17DC3221C9DEDC006937B8 /* VC_GCDTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_GCDTimerViewController.h; sourceTree = "<group>"; };
+		EE17DC3321C9DEDC006937B8 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+		EE17DC3421C9DEDC006937B8 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		EE17DC3521C9DEDC006937B8 /* VC_NSTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_NSTimerViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE17DBE321C9DEBA006937B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DBFB21C9DEBB006937B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DC0621C9DEBB006937B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE17DBDD21C9DEBA006937B8 = {
+			isa = PBXGroup;
+			children = (
+				EE17DBE821C9DEBA006937B8 /* CellTimer */,
+				EE17DC0121C9DEBB006937B8 /* CellTimerTests */,
+				EE17DC0C21C9DEBB006937B8 /* CellTimerUITests */,
+				EE17DBE721C9DEBA006937B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE17DBE721C9DEBA006937B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE17DBE621C9DEBA006937B8 /* CellTimer.app */,
+				EE17DBFE21C9DEBB006937B8 /* CellTimerTests.xctest */,
+				EE17DC0921C9DEBB006937B8 /* CellTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE17DBE821C9DEBA006937B8 /* CellTimer */ = {
+			isa = PBXGroup;
+			children = (
+				EE17DBE921C9DEBA006937B8 /* AppDelegate.h */,
+				EE17DBEA21C9DEBA006937B8 /* AppDelegate.m */,
+				EE17DBEC21C9DEBA006937B8 /* ViewController.h */,
+				EE17DBED21C9DEBA006937B8 /* ViewController.m */,
+				EE17DC2721C9DEDB006937B8 /* GCDTimer.h */,
+				EE17DC3121C9DEDB006937B8 /* GCDTimer.m */,
+				EE17DC3421C9DEDC006937B8 /* NSString+Date.h */,
+				EE17DC2E21C9DEDB006937B8 /* NSString+Date.m */,
+				EE17DC2821C9DEDB006937B8 /* NSTimer+Block.h */,
+				EE17DC3321C9DEDC006937B8 /* NSTimer+Block.m */,
+				EE17DC2621C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.h */,
+				EE17DC2921C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.m */,
+				EE17DC2B21C9DEDB006937B8 /* VC_And_Cell_GCDTimerTableViewCell.xib */,
+				EE17DC2121C9DEDA006937B8 /* VC_And_Cell_GCDTimerViewController.h */,
+				EE17DC1B21C9DEDA006937B8 /* VC_And_Cell_GCDTimerViewController.m */,
+				EE17DC2C21C9DEDB006937B8 /* VC_And_Cell_GCDTimerViewController.xib */,
+				EE17DC1E21C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.h */,
+				EE17DC2021C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.m */,
+				EE17DC1D21C9DEDA006937B8 /* VC_And_Cell_NSTimerTableViewCell.xib */,
+				EE17DC2521C9DEDA006937B8 /* VC_And_Cell_NSTimerViewController.h */,
+				EE17DC2F21C9DEDB006937B8 /* VC_And_Cell_NSTimerViewController.m */,
+				EE17DC1C21C9DEDA006937B8 /* VC_And_Cell_NSTimerViewController.xib */,
+				EE17DC3221C9DEDC006937B8 /* VC_GCDTimerViewController.h */,
+				EE17DC2221C9DEDA006937B8 /* VC_GCDTimerViewController.m */,
+				EE17DC2A21C9DEDB006937B8 /* VC_GCDTimerViewController.xib */,
+				EE17DC3521C9DEDC006937B8 /* VC_NSTimerViewController.h */,
+				EE17DC2321C9DEDA006937B8 /* VC_NSTimerViewController.m */,
+				EE17DC1F21C9DEDA006937B8 /* VC_NSTimerViewController.xib */,
+				EE17DC2D21C9DEDB006937B8 /* VC_TimerTableViewCell.h */,
+				EE17DC2421C9DEDA006937B8 /* VC_TimerTableViewCell.m */,
+				EE17DC3021C9DEDB006937B8 /* VC_TimerTableViewCell.xib */,
+				EE17DBEF21C9DEBA006937B8 /* Main.storyboard */,
+				EE17DBF221C9DEBB006937B8 /* Assets.xcassets */,
+				EE17DBF421C9DEBB006937B8 /* LaunchScreen.storyboard */,
+				EE17DBF721C9DEBB006937B8 /* Info.plist */,
+				EE17DBF821C9DEBB006937B8 /* main.m */,
+			);
+			path = CellTimer;
+			sourceTree = "<group>";
+		};
+		EE17DC0121C9DEBB006937B8 /* CellTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE17DC0221C9DEBB006937B8 /* CellTimerTests.m */,
+				EE17DC0421C9DEBB006937B8 /* Info.plist */,
+			);
+			path = CellTimerTests;
+			sourceTree = "<group>";
+		};
+		EE17DC0C21C9DEBB006937B8 /* CellTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE17DC0D21C9DEBB006937B8 /* CellTimerUITests.m */,
+				EE17DC0F21C9DEBB006937B8 /* Info.plist */,
+			);
+			path = CellTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE17DBE521C9DEBA006937B8 /* CellTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17DC1221C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimer" */;
+			buildPhases = (
+				EE17DBE221C9DEBA006937B8 /* Sources */,
+				EE17DBE321C9DEBA006937B8 /* Frameworks */,
+				EE17DBE421C9DEBA006937B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellTimer;
+			productName = CellTimer;
+			productReference = EE17DBE621C9DEBA006937B8 /* CellTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE17DBFD21C9DEBB006937B8 /* CellTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17DC1521C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimerTests" */;
+			buildPhases = (
+				EE17DBFA21C9DEBB006937B8 /* Sources */,
+				EE17DBFB21C9DEBB006937B8 /* Frameworks */,
+				EE17DBFC21C9DEBB006937B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE17DC0021C9DEBB006937B8 /* PBXTargetDependency */,
+			);
+			name = CellTimerTests;
+			productName = CellTimerTests;
+			productReference = EE17DBFE21C9DEBB006937B8 /* CellTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE17DC0821C9DEBB006937B8 /* CellTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17DC1821C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimerUITests" */;
+			buildPhases = (
+				EE17DC0521C9DEBB006937B8 /* Sources */,
+				EE17DC0621C9DEBB006937B8 /* Frameworks */,
+				EE17DC0721C9DEBB006937B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE17DC0B21C9DEBB006937B8 /* PBXTargetDependency */,
+			);
+			name = CellTimerUITests;
+			productName = CellTimerUITests;
+			productReference = EE17DC0921C9DEBB006937B8 /* CellTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE17DBDE21C9DEBA006937B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dcjt;
+				TargetAttributes = {
+					EE17DBE521C9DEBA006937B8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE17DBFD21C9DEBB006937B8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE17DBE521C9DEBA006937B8;
+					};
+					EE17DC0821C9DEBB006937B8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE17DBE521C9DEBA006937B8;
+					};
+				};
+			};
+			buildConfigurationList = EE17DBE121C9DEBA006937B8 /* Build configuration list for PBXProject "CellTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE17DBDD21C9DEBA006937B8;
+			productRefGroup = EE17DBE721C9DEBA006937B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE17DBE521C9DEBA006937B8 /* CellTimer */,
+				EE17DBFD21C9DEBB006937B8 /* CellTimerTests */,
+				EE17DC0821C9DEBB006937B8 /* CellTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE17DBE421C9DEBA006937B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17DC3721C9DEDC006937B8 /* VC_And_Cell_NSTimerViewController.xib in Resources */,
+				EE17DC4021C9DEDC006937B8 /* VC_And_Cell_GCDTimerTableViewCell.xib in Resources */,
+				EE17DC3821C9DEDC006937B8 /* VC_And_Cell_NSTimerTableViewCell.xib in Resources */,
+				EE17DC3F21C9DEDC006937B8 /* VC_GCDTimerViewController.xib in Resources */,
+				EE17DBF621C9DEBB006937B8 /* LaunchScreen.storyboard in Resources */,
+				EE17DBF321C9DEBB006937B8 /* Assets.xcassets in Resources */,
+				EE17DC3921C9DEDC006937B8 /* VC_NSTimerViewController.xib in Resources */,
+				EE17DBF121C9DEBA006937B8 /* Main.storyboard in Resources */,
+				EE17DC4421C9DEDC006937B8 /* VC_TimerTableViewCell.xib in Resources */,
+				EE17DC4121C9DEDC006937B8 /* VC_And_Cell_GCDTimerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DBFC21C9DEBB006937B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DC0721C9DEBB006937B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE17DBE221C9DEBA006937B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17DC4521C9DEDC006937B8 /* GCDTimer.m in Sources */,
+				EE17DBEE21C9DEBA006937B8 /* ViewController.m in Sources */,
+				EE17DBF921C9DEBB006937B8 /* main.m in Sources */,
+				EE17DC3C21C9DEDC006937B8 /* VC_NSTimerViewController.m in Sources */,
+				EE17DC3A21C9DEDC006937B8 /* VC_And_Cell_NSTimerTableViewCell.m in Sources */,
+				EE17DC3621C9DEDC006937B8 /* VC_And_Cell_GCDTimerViewController.m in Sources */,
+				EE17DC4221C9DEDC006937B8 /* NSString+Date.m in Sources */,
+				EE17DC3B21C9DEDC006937B8 /* VC_GCDTimerViewController.m in Sources */,
+				EE17DC4621C9DEDC006937B8 /* NSTimer+Block.m in Sources */,
+				EE17DC4321C9DEDC006937B8 /* VC_And_Cell_NSTimerViewController.m in Sources */,
+				EE17DC3E21C9DEDC006937B8 /* VC_And_Cell_GCDTimerTableViewCell.m in Sources */,
+				EE17DC3D21C9DEDC006937B8 /* VC_TimerTableViewCell.m in Sources */,
+				EE17DBEB21C9DEBA006937B8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DBFA21C9DEBB006937B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17DC0321C9DEBB006937B8 /* CellTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17DC0521C9DEBB006937B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17DC0E21C9DEBB006937B8 /* CellTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE17DC0021C9DEBB006937B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE17DBE521C9DEBA006937B8 /* CellTimer */;
+			targetProxy = EE17DBFF21C9DEBB006937B8 /* PBXContainerItemProxy */;
+		};
+		EE17DC0B21C9DEBB006937B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE17DBE521C9DEBA006937B8 /* CellTimer */;
+			targetProxy = EE17DC0A21C9DEBB006937B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE17DBEF21C9DEBA006937B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE17DBF021C9DEBA006937B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE17DBF421C9DEBB006937B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE17DBF521C9DEBB006937B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE17DC1021C9DEBB006937B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE17DC1121C9DEBB006937B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE17DC1321C9DEBB006937B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE17DC1421C9DEBB006937B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE17DC1621C9DEBB006937B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellTimer.app/CellTimer";
+			};
+			name = Debug;
+		};
+		EE17DC1721C9DEBB006937B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellTimer.app/CellTimer";
+			};
+			name = Release;
+		};
+		EE17DC1921C9DEBB006937B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellTimer;
+			};
+			name = Debug;
+		};
+		EE17DC1A21C9DEBB006937B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpy.CellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE17DBE121C9DEBA006937B8 /* Build configuration list for PBXProject "CellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17DC1021C9DEBB006937B8 /* Debug */,
+				EE17DC1121C9DEBB006937B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17DC1221C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17DC1321C9DEBB006937B8 /* Debug */,
+				EE17DC1421C9DEBB006937B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17DC1521C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17DC1621C9DEBB006937B8 /* Debug */,
+				EE17DC1721C9DEBB006937B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17DC1821C9DEBB006937B8 /* Build configuration list for PBXNativeTarget "CellTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17DC1921C9DEBB006937B8 /* Debug */,
+				EE17DC1A21C9DEBB006937B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE17DBDE21C9DEBA006937B8 /* Project object */;
+}
