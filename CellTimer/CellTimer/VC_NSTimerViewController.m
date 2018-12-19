@@ -44,7 +44,6 @@
             [cell configureTimerWithTime:tmp];
         }
     } repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
     // Do any additional setup after loading the view.
 }
 
